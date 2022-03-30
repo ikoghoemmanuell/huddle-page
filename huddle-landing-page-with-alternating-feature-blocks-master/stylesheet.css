@@ -154,7 +154,7 @@ body {
 
 /* CTA SECTION */
 .section-cta {
-  padding: 7.4rem 12.7rem 5.2rem 12.7rem;
+  padding: 7.4rem 0 5.2rem 0;
   border: 2px solid hsla(209, 11%, 55%, 0.162);
   border-radius: 10px;
 
