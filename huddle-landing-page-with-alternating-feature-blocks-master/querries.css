@@ -1,0 +1,162 @@
+@media (max-width: 76.25em) {
+  .section-footer {
+    grid-template-columns: 1.5fr 1fr 1fr 1.3fr;
+  }
+}
+
+@media (max-width: 74em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 65.75em) {
+  html {
+    font-size: 43.75%;
+  }
+  h1 {
+    line-height: 6.7rem;
+  }
+}
+
+@media (max-width: 56.3125em) {
+  html {
+    font-size: 37.5%;
+  }
+  h2 {
+    font-size: 3.4rem;
+  }
+}
+
+@media (max-width: 52.3125em) {
+  html {
+    font-size: 34.375%;
+  }
+  .section-footer {
+    grid-template-columns: 1.5fr 1fr 1fr auto;
+  }
+}
+
+@media (max-width: 44.1875em) {
+  h1 {
+    font-size: 4.5rem;
+  }
+  .section-footer,
+  .hero-content {
+    display: block;
+  }
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
+  html {
+    font-size: 75.7%;
+  }
+  h1 {
+    font-size: 3.8rem;
+    line-height: 5.6rem;
+  }
+  h2 {
+    font-size: 2.7rem;
+  }
+  .btn {
+    padding: 0.7rem 3.9rem;
+    font-size: 1.6rem;
+  }
+  .btn-cta {
+    align-self: center;
+    margin-bottom: 7rem;
+    padding: 1.7rem 8.7rem;
+  }
+  .btn2 {
+    padding: 2.3rem 7.4rem;
+  }
+  .section-cta {
+    max-width: 53rem;
+    box-shadow: 0 0.1rem 2.1rem rgb(0 0 0 / 8%);
+    border-radius: 20px;
+    padding: 7.4rem 2.55rem 0 2.55rem;
+  }
+
+  p,
+  h1,
+  h2 {
+    text-align: center;
+  }
+  p {
+    font-size: 2.2rem;
+  }
+  .p3 {
+    text-align: start;
+  }
+  .container {
+    padding: 3rem;
+  }
+  .containeree {
+    padding: 20.7rem 4rem 6rem 4rem;
+  }
+  .logo {
+    width: 16.3rem;
+  }
+  .nav {
+    padding-bottom: 11.9rem;
+  }
+
+  .features-content {
+    grid-template-columns: 1fr;
+  }
+  .features-img {
+    grid-row: 1;
+  }
+  .features-content {
+    box-shadow: 0 0.1rem 2.1rem rgb(0 0 0 / 8%);
+    padding: 8rem 6rem;
+    row-gap: 9rem;
+  }
+  .section-features {
+    gap: 5.9rem;
+    margin-bottom: 33.3rem;
+  }
+}
+
+@media (max-width: 40.1875em) {
+  html {
+    font-size: 63.4%;
+  }
+}
+
+@media (max-width: 33.4375em) {
+  html {
+    font-size: 51.4%;
+  }
+}
+
+@media (max-width: 28.125em) {
+  html {
+    font-size: 44.2%;
+  }
+  .logo2 {
+    width: 24.2rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 23.4375em) {
+  html {
+    font-size: 37.7%;
+  }
+  .hero-content {
+    padding: 0 2.9rem;
+  }
+  .section-features {
+    margin-top: 5.6rem;
+  }
+  h2 {
+    font-size: 3.3rem;
+  }
+  .section-cta {
+    max-width: 59rem;
+  }
+}

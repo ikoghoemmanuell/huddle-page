@@ -4,12 +4,13 @@
 }
 
 .containerer {
-  max-width: 140rem;
+  max-width: 160rem;
   margin: 0 auto;
 }
 
 h1,
-h2 {
+h2,
+.btn {
   font-family: "Poppins", sans-serif;
 }
 
@@ -41,12 +42,13 @@ p {
   border: white;
   border-radius: 50px;
   box-shadow: 0 0.2rem 0.8rem rgb(0 0 0 / 14%);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .btn-nav {
   background-color: white;
   color: hsl(192, 100%, 9%);
+  font-weight: 800;
 }
 
 .btn-nav:hover {
@@ -133,7 +135,7 @@ body {
 
   padding: 4rem 2rem 4rem 12rem;
   border: 2px solid hsla(209, 11%, 55%, 0.162);
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .features-text {
@@ -155,11 +157,13 @@ body {
   padding: 7.4rem 12.7rem 5.2rem 12.7rem;
   border: 2px solid hsla(209, 11%, 55%, 0.162);
   border-radius: 10px;
-  /* margin: 0 34.3rem; */
+
   position: absolute;
-  top: 0;
-  left: 0;
-  transform: translate(31.5%, -20rem);
+  top: -18.5rem;
+  right: 1rem;
+  left: 1rem;
+  margin-inline: auto;
+  max-width: 87rem;
   z-index: 2;
   background-color: white;
 }
@@ -229,4 +233,14 @@ i:hover {
 .footer-socials {
   display: flex;
   gap: 10px;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  gap: 23rem;
+}
+
+.p4 {
+  font-size: 1.2rem;
 }
